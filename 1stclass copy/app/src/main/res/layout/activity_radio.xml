@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RadioActivity">
+
+
+    <RadioGroup
+        android:layout_width="312dp"
+        android:layout_height="63dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/Papaya_radioButton"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Papaya" />
+
+        <RadioButton
+            android:id="@+id/Mango_radioButton"
+            android:layout_width="102dp"
+            android:layout_height="wrap_content"
+            android:text="Mango" />
+
+        <RadioButton
+            android:id="@+id/Orange_radioButton"
+            android:layout_width="104dp"
+            android:layout_height="wrap_content"
+            android:text="Orange" />
+
+
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/Orange_image"
+        android:layout_width="315dp"
+        android:layout_height="482dp"
+        app:srcCompat="@drawable/orange" />
+
+
+</LinearLayout>
